@@ -4,5 +4,5 @@ numpy
 profanityfilter
 pyyaml
 regex
-tensorflow-gpu==1.15.2
 tracery
+gpt-2-simple
