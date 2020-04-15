@@ -35,6 +35,7 @@ pip_install () {
 	fi
 	source "${BASE_DIR}/venv/bin/activate"
 	pip install --upgrade pip setuptools
+	pip install tensorflow-gpu==1.15.2
 	pip install -r "${BASE_DIR}/requirements.txt"
 }
 
